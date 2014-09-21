@@ -49,4 +49,4 @@
   colnames(tidy_data)[-c(1:2)] <- paste( "avg_",colnames(tidy_data)[-c(1:2)], sep="")
 
   #write output
-  write.table(tidy_data, row.names = TRUE, "tidy.txt", sep="\t"  )
+  write.table(tidy_data, row.names = TRUE, "tidy.txt", sep="\t"  ) 
