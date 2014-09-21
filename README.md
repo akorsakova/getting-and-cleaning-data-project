@@ -1,5 +1,4 @@
 #getting-and-cleaning-data-project
-=================================
 
 ##Project Description
 
@@ -40,9 +39,9 @@ From the data set in step 4, creates a second, independent tidy data set with th
 9.  The y_ dataset is cleaned up using the factor function and the activity_label dataset in order to create descriptive text for the 
     variable found in the y_ datset 
 
-10. The cleaned up data from all three, the x_ the y_ and the subject_ datasets, is then merged together using the cbind fucntion
+10. The cleaned up data from all three, the x_ the y_ and the subject_ datasets, is then merged together using the cbind function
 
-11. The ddply function from the Plyr package is then used to apply the colMeans function to get means accross subject and activity type
+11. The ddply function from the Plyr package is then used to apply the colMeans function to get means across subject and activity type
 
 12. Column names are altered to be more descriptive with a prefix of "avg_"
 
